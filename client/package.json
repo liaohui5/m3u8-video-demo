@@ -1,0 +1,21 @@
+{
+  "name": "client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite --port=9000 ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "xgplayer": "^2.31.6",
+    "xgplayer-hls": "^2.5.2",
+    "xgplayer-hls.js": "^2.6.1",
+    "xgplayer-mp4": "^2.0.2"
+  },
+  "devDependencies": {
+    "vite": "^2.9.13"
+  }
+}
