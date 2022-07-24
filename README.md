@@ -14,6 +14,8 @@
 git clone https://github.com/liaohui5/m3u8-video-demo
 
 # 启动服务端: http://localhost:8000
+# 注意要在 /server 下创建 uploads 目录, 否则会报错
+mkdir uploads
 cd server && npm run dev
 
 # 启动客户端: http://localhost:9000
@@ -23,5 +25,5 @@ cd client && npm run dev
 ## 测试
 
 1. 打开浏览器访问: `http://localhost:9000`
-2. 上传一个视屏, 不要太大, 因为要转码, 如果太大就需要等待很长时间, 建议直接找一个短视屏来测试效果
+2. 上传一个视屏, 不要太大, 因为要转码, 如果太大就需要等待很长时间, 建议抖音找个10多秒的短视频测试
 3. 如果能够正常播放就证明没有问题
